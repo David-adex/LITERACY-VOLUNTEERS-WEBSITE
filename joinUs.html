@@ -1,0 +1,353 @@
+<html>
+
+<head>
+  <title>Join Us</title>
+  <meta charset="utf-8">
+  <script src="https://kit.fontawesome.com/ba96adf8e5.js" crossorigin="anonymous"></script><!-- icon API -->
+  <script src="index.js" defer></script>
+  <script src="customTool.js" defer></script>
+  <link rel="stylesheet" href="index.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="schools.css" type="text/css" />
+  <link rel="stylesheet" href="joinUs.css" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="sticky-top drop-shadow">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3"
+      style="background-color:#b6d7a8;" ;>
+      <div class="d-flex align-items-center px-4"><a href="index.html"><img src="assets/logo.png" class="logo" style="width: 135px;"></a></div>
+      <div class="d-flex justify-content-center">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" style="width:35%; height: auto;">
+          <source src="assets/AnimLogo.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="d-flex align-items-center">
+        <a class="nav-link dropdown-toggle link-light" href="#" id="navbarDropdown" role="button"
+          data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="index.html">Home</a>
+          <a class="dropdown-item" href="aboutUs.html">About Us</a>
+          <a class="dropdown-item" href="joinUs.html">Join Us</a>
+          <a class="dropdown-item" href="resources.html">Resources</a>
+          <a class="dropdown-item" href="fundraising.html">Fundraising</a>
+          <a class="dropdown-item" href="news.html">News</a>
+          <a class="dropdown-item" href="contactUs.html">Contact Us</a>
+          <a class="dropdown-item" href="cookiePolicy.html">Cookie Policy</a>
+        </div>
+      </div>
+    </header>
+    <ul class="hearderColour nav nav-tabs nav-fill red justify-content-center border-bottom">
+      <li class="nav-item">
+        <a class="nav-link link-light" href="volunteers.html">Volunteers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-light" href="schools.html">Schools</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-light" href="earlyYears.html">Early Years</a>
+      </li>
+    </ul>
+  </div>
+
+  <!--======================================== Costomise Tools =====================================-->
+  <form class="custom">
+    <!--customise font size and background colour-->
+    <!--  custom drop-down list -->
+    <!--  font size -->
+    <select id="fontList">
+      <option value="" selected>Font Size</option>
+      <option value="small">Small</option>
+      <option value="normal">Normal</option>
+      <option value="large">Large</option>
+    </select>
+
+    <!--  background color -->
+    <select id="colorList">
+      <option value="" selected>Colour Mode</option>
+      <option value="green">Green</option>
+      <option value="dark">Dark Green</option>
+      <option value="purple">Purple</option>
+      <option value="blue">Blue</option>
+      <option value="grey">Grey</option>
+    </select>
+  </form>
+
+  <div class="hero-image p-5"
+    style="background-image:url('assets/image_joinus/iStock_000012489962Medium.jpg'); background-position: center; position: relative; background-size: cover;">
+    <div class="hero-text p-5 mx-auto"
+      style="color:white; filter:drop-shadow(0 0 3px #000); font-family:Bubblegum Sans">
+      <h1>
+        <center>Join Us</center>
+      </h1>
+    </div>
+  </div>
+
+  <div class="p-4" style="background-color:#9cb890;">
+    <h3 style="color:white; filter:drop-shadow(0 0 3px #9bb98f); font-family:Bubblegum Sans">
+      <center>"We have seen a huge amount of progress with V's reading and comprehension skills."</center>
+    </h3>
+    <h6 style="color:white;">
+      <center>-Lawrence View Primary</center>
+    </h6>
+  </div>
+
+
+  <div class="fontSizeContainer">
+    <div class="mainContent">
+
+      <!-- Form Title-->
+      <div class="formTitle">
+        <h2>Become a volunteer</h2>
+        <p>“I love my mornings in school and it’s wonderful to see how much the children seem to get out of our sessions.”</p>
+      </div>
+      <!-- Volunteer Application Form -->
+      <form class="registerForm">
+        <h2>Volunteer Application Form</h2>
+        <fieldset class="contactInfo">
+          <legend>Personal Information</legend>
+  
+          <!-- personal information -->
+          <section class="personalInfoContainer">
+            <label for="firstName">First name:</label>
+            <label id="firstNameNotice"> </label>
+            <!--notice-->
+            <input type="text" class="personalInfo" name="firstName" id="firstName"
+              placeholder="Please enter your first name" title="1 to 25 Letters First Name" required>
+  
+            <label for="lastName">Last name:</label>
+            <label id="lastNameNotice"> </label>
+            <!--notice-->
+            <input type="text" class="personalInfo" name="lastName" id="lastName"
+              placeholder="Please enter your last name" title="1 to 25 Letters Last Name" required>
+  
+            <label for="mobile">Mobile:</label>
+            <label id="mobileNotice"> </label>
+            <!--notice-->
+            <input type="text" class="personalInfo" name="mobile" id="mobile" placeholder="Please enter your Phone Number"
+              title="Mobile" required>
+  
+            <label for="email">Email:</label>
+            <label id="eamilNotice"> </label>
+            <!--notice-->
+            <input type="text" class="personalInfo" name="email" id="email" placeholder="Please enter your e-mail address"
+              title="Email Address" required>
+  
+            <label for="address">Address:</label>
+            <label id="addressNotice"> </label>
+            <!--notice-->
+            <input type="text" class="personalInfo" name="address" id="address" placeholder="Please enter your Address"
+              title="Address" required>
+  
+            <label for="postCode">Post Code:</label>
+            <label id="postCodeNotice"> </label>
+            <!--notice-->
+            <input type="text" class="personalInfo" name="postCode" id="postCode"
+              placeholder="Please enter your Post Code" title="PostCode" required>
+  
+          </section>
+        </fieldset>
+  
+        <!-- Volunteer Type information -->
+        <fieldset class="contactInfo">
+          <legend>Volunteer Type</legend>
+  
+          <section class="purposeContainer">
+            <p id="purposeNotice"> </p>
+            <!--notice-->
+            <input type="checkbox" name="volunteer" id="volunteer" class="vType" value="Standard" />
+            <label for="volunteer">Literacy Volunteer</label>
+  
+            <input type="checkbox" name="OneToOne" id="OneToOne" class="vType" value="OneToOne" />
+            <label for="OneToOne">1-1 Volunteer</label>
+  
+            <input type="checkbox" name="StoryShare" id="StoryShare" class="vType" value="StoryShare" />
+            <label for="StoryShare">Story Sharer Volunteer</label>
+  
+          </section>
+        </fieldset>
+  
+        <!-- submit & reset button -->
+        <section class="buttons">
+          <input id="submitBtn" type="submit" value="Submit" title="Submit Form">
+          <input id="resetBtn" type="reset" value="Reset" title="Reset Form">
+        </section>
+      </form>
+  
+  
+
+      <!-- Form Title-->
+      <div class="formTitle2">
+        <h2>Become a school partner</h2>
+        <p>“It makes me more confident.  If she wasn’t here it wouldn’t be fun.”</p>
+      </div>
+      <!-- School Enquiry Form -->
+      <form class="registerForm">
+        <h2>School Enquiry Form</h2>
+        <fieldset class="contactInfo">
+  
+          <legend>School/Organisation Information</legend>
+  
+          <!-- personal information -->
+          <section class="personalInfoContainer">
+            <label for="Name">School/Organisation name:</label>
+            <label id="NameNotice"> </label>
+            <!--notice-->
+            <input type="text" class="personalInfo" name="Name" id="Name"
+              placeholder="Please enter School/Organisation name" title="1 to 25 Letters Name" required>
+  
+            <label for="address">Address:</label>
+            <label id="addressNotice"> </label>
+            <!--notice-->
+            <input type="text" class="personalInfo" name="address" id="address" placeholder="Please enter Address"
+              title="Address" required>
+  
+            <label for="postCode">Post Code:</label>
+            <label id="postCodeNotice"> </label>
+            <!--notice-->
+            <input type="text" class="personalInfo" name="postCode" id="postCode" placeholder="Please enter Post Code"
+              title="PostCode" required>
+  
+            <label for="country">Country:</label>
+            <label id="countryNotice"> </label>
+            <!--notice-->
+            <input type="text" class="personalInfo" name="country" id="country" placeholder="Please enter country"
+              title="PostCode" required>
+  
+          </section>
+        </fieldset>
+  
+  
+        <fieldset class="contactInfo">
+  
+          <legend>Primary Contact Information</legend>
+  
+          <!-- personal information -->
+          <section class="personalInfoContainer">
+            <label for="firstName">First name:</label>
+            <label id="firstNameNotice"> </label>
+            <!--notice-->
+            <input type="text" class="personalInfo" name="firstName" id="firstName" placeholder="Please enter first name"
+              title="1 to 25 Letters First Name" required>
+  
+            <label for="lastName">Last name:</label>
+            <label id="lastNameNotice"> </label>
+            <!--notice-->
+            <input type="text" class="personalInfo" name="lastName" id="lastName" placeholder="Please enter last name"
+              title="1 to 25 Letters Last Name" required>
+  
+            <label for="mobile">Mobile:</label>
+            <label id="mobileNotice"> </label>
+            <!--notice-->
+            <input type="text" class="personalInfo" name="mobile" id="mobile" placeholder="Please enter Phone Number"
+              title="Mobile" required>
+  
+            <label for="email">Email:</label>
+            <label id="eamilNotice"> </label>
+            <!--notice-->
+            <input type="text" class="personalInfo" name="email" id="email" placeholder="Please enter e-mail address"
+              title="Email Address" required>
+  
+          </section>
+        </fieldset>
+  
+        <!-- Volunteer Type information -->
+        <fieldset class="contactInfo">
+          <legend>Your Interests:</legend>
+  
+          <section class="purposeContainer">
+            <p id="purposeNotice"> </p>
+            <!--notice-->
+  
+            <input type="checkbox" name="OneToOne" id="OneToOne" class="vType" value="OneToOne" />
+            <label for="OneToOne">1-1 Reading</label>
+  
+            <input type="checkbox" name="StoryShare" id="StoryShare" class="vType" value="StoryShare" />
+            <label for="StoryShare">Story Sharer</label>
+  
+          </section>
+        </fieldset>
+  
+        <!-- submit & reset button -->
+        <section class="buttons">
+          <input id="submitBtn" type="submit" value="Submit" title="Submit Form">
+          <input id="resetBtn" type="reset" value="Reset" title="Reset Form">
+        </section>
+      </form>
+  
+    </div>
+  
+
+
+  </div>
+  
+
+
+  <!--- Back to Top Button -->
+  <a class="fas fa-arrow-alt-circle-up" href="#" title="back-top button"> </a>
+
+
+  <div class="p-4" style="background-color:#9cb890;"></div>
+  <footer class="footerColour page-footer font-small p-4">
+    <div class="row">
+      <div class="m-4"></div>
+      <div class="followUs col-md-2 col-lg-2 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold mt-2">Follow Us</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <form action="">
+          <div class="col-auto text-start">
+            <label for="Name" class="col-form-label">Name</label>
+          </div>
+          <div class="col-auto">
+            <input type="text"  name="Name" title="1 to 25 Letters Name" required>
+          </div>
+          <div class="mb-2 col-auto text-start">
+            <label for="email" class="col-form-label">Email address</label>
+          </div>
+          <div class="col-auto mb-2">
+            <input type="text" name="email" title="Email Address" required>
+          </div>
+          <div class="mb-2">
+            <button type="submit" class="btn btn-primary btn btn-roundedn text-center" style="margin-top: 3%; font-size: smaller;"> Subscribe</button>
+          </div>
+        </form>
+      </div>
+      <div class="footerLinks col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold mt-2">Useful links</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a class="link-light" href="volunteers.html">Volunteers</a>
+        </p>
+        <p>
+          <a class="link-light" href="schools.html">Schools</a>
+        </p>
+        <p>
+          <a class="link-light" href="earlyYears.html">Early Years</a>
+        </p>
+        <p>
+          <a class="link-light" href="contactUs.html">Contact Us</a>
+        </p>
+        <p>
+          <a class="link-light" href="joinUs.html">Enquiry Form</a>
+        </p>
+        <p>
+          <a class="link-light" href="#!">Frequently Asked Questions</a>
+        </p>
+      </div>
+      <div class="vProtal col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold mt-2">Volunteers Portal</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Current Volunteers should click the button below</p>
+        <a href="#!" class="btn btn-primary btn btn-rounded">Sign in!</a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+
+.mainContent {
+    width:80%;
+    margin: 0 auto;
+
+}
+
+.outCotainer{
+    display: flex;
+    margin:2% 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+/*=================== Story Sharer ===================*/
+.projectTitle{
+    font-family:Bubblegum Sans;
+    font-weight: bold;
+    padding:1% 0;
+    text-align: center;
+    margin: 5% 0 2% 0;
+    background: linear-gradient(to right, rgba(128,128,128,0.15), rgba(182, 215, 168, 0.75),rgba(128,128,128,0.15));
+
+}
+.leftContainer{
+    width:30%;
+    min-width: 300px;
+}
+.rightContainer{
+    width:70%;
+}
+.leftContainer img{
+    width:100%;
+    display: block;
+}
+
+.leftContainer p{
+    font-size: smaller;
+}
+
+.projectContainer1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.projectContainer1 .block{
+    width: 40%;
+    margin: 2% 0;
+    margin-left: 2%;
+    min-width: 250px;
+    
+}
+/* project title */
+.projectContainer1 article h4{
+    padding-left: 2%;
+    border-left: 3px solid #b6d7a8;
+    border-bottom: 3px solid #b6d7a8;
+    margin: 0;
+    background: linear-gradient(to right, rgba(182, 215, 168, 0.35),rgba(128,128,128,0.15));
+    font-size: medium;
+    font-family:Bubblegum Sans;
+}
+.projectContainer1 article h4 span{
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+ 
+}
+/* project image */
+.projectContainer1 article img{
+    width: 100%;
+    display: block;
+    cursor: zoom-in;
+    
+} 
+/* project description */
+.projectContainer1 article p{
+    border-right: 3px solid #b6d7a8;
+    border-bottom: 3px solid #b6d7a8;
+    padding: 5% 5% 3% 0;/* top/right/bottom/left */
+    margin: 0;
+    display:inline-block;
+    width: 100%;
+} 
+.projectContainer1 article p span{
+    color: black;
+    font-weight: bold;
+} 
+
+/* project link button */
+.projectContainer1 article .learnMoreLink{
+    margin: 5% 3%;
+    color: white;
+    font-weight: bold;
+    background-color: #b6d7a8;
+    text-decoration: none;
+    padding: 1% 4%;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+    
+} 
+
+.projectContainer1 article .learnMoreLink:hover{
+    color: black;
+    background-color: #cfe2f3;
+} 
+
+.projectContainer1 article .learnMoreLink2{
+   background-color: #b6d7a8;
+   width: 100%;
+   display:inline-block;
+   text-align: center;
+   text-decoration: none;
+   color: white;
+   cursor: pointer;
+   font-weight: bold;
+    
+} 
+.projectContainer1 article .learnMoreLink2:hover{
+    color: black;
+    background-color: #cfe2f3;
+     
+ } 
+
+
+ 
+
+
+/*=================== Share Story ===================*/
+.projectTitle2{
+    font-family:Bubblegum Sans;
+    font-weight: bold;
+    padding:1% 0;
+    text-align: center;
+    margin:1% 0;
+    margin: 5% 0 1% 0;
+    background: linear-gradient(to right, rgba(128,128,128,0.15), rgba(207, 226, 243, 0.75),rgba(128,128,128,0.15));
+
+}
+
+.projectContainer2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.projectContainer2 .block{
+    width: 40%;
+    margin: 2% 0;
+    margin-left: 2%;
+    min-width: 250px;
+    
+}
+/* project title */
+.projectContainer2 article h4{
+    padding-left: 2%;
+    border-left: 3px solid #CFE2F3;
+    border-bottom: 3px solid #CFE2F3;
+    margin: 0;
+    background: linear-gradient(to right, rgba(207, 226, 243, 0.75),rgba(128,128,128,0.15));
+    font-size: medium;
+    font-family:Bubblegum Sans;
+}
+.projectContainer2 article h4 span{
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+ 
+}
+/* project image */
+.projectContainer2 article img{
+    width: 100%;
+    display: block;
+    cursor: zoom-in;
+    
+} 
+/* flyer image */
+.zoomTarget2{
+    cursor: zoom-in;
+}
+/* project description */
+.projectContainer2 article p{
+    border-right: 3px solid #CFE2F3;
+    border-bottom: 3px solid #CFE2F3;
+    padding: 5% 5% 3% 0;/* top/right/bottom/left */
+    margin: 0;
+    display:inline-block;
+    width: 100%;
+} 
+.projectContainer2 article p span{
+    color: black;
+    font-weight: bold;
+} 
+
+/* project link button */
+.projectContainer2 article .learnMoreLink{
+    margin: 5% 3%;
+    color: black;
+    font-weight: bold;
+    background-color: #CFE2F3;
+    text-decoration: none;
+    padding: 1% 4%;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+    
+} 
+
+.projectContainer2 article .learnMoreLink:hover{
+    color: white;
+    background-color: #b6d7a8;
+} 
+
+.projectContainer2 article .learnMoreLink2{
+   background-color: #CFE2F3;
+   width: 100%;
+   display:inline-block;
+   text-align: center;
+   text-decoration: none;
+   color: black;
+   cursor: pointer;
+   font-weight: bold;
+    
+} 
+.projectContainer2 article .learnMoreLink2:hover{
+    color: white;
+    background-color: #b6d7a8;
+     
+ } 
+
+ 
+ @media (max-width:999px){
+    .leftContainer{
+        width:60%;
+        min-width: 300px;
+    }
+}

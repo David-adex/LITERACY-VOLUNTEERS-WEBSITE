@@ -1,0 +1,113 @@
+.mainContent {
+    width:80%;
+    margin: 0 auto;
+
+}
+
+
+.formTitle{
+    margin: 0 15%;
+    margin-top: 5%;
+    padding: 3%;
+    background-image: linear-gradient(rgba(88,88,88,0.8),rgba(88,88,88,0.5)), url(./assets/formTitle1.jpg);
+    color: white;
+    background-size: cover;
+    text-align: center;
+}
+
+.formTitle p{
+    margin: 0;
+}
+
+.formTitle2{
+    margin: 0 15%;
+    margin-top: 5%;
+    padding: 3%;
+    background-image: linear-gradient(rgba(88,88,88,0.8),rgba(88,88,88,0.5)), url(./assets/formTitle2.jpg);
+    color: white;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.formTitle2 p{
+    margin: 0;
+}
+
+
+/* --------------------------------------------- Register Form ------------------------------------- */
+/* ----------- Register Form overall setting----------- */
+.formContainer{
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, rgb(255, 255, 255), rgba(182, 215, 168, 1),rgb(255, 255, 255)) 20 50;
+    padding: 0 5% 5%;
+    margin-bottom: 5%;
+   
+}
+.registerForm{
+    padding: 1.5%;
+    text-align: left;
+    background-image: linear-gradient(rgba(245, 245, 245, 0.95),rgba(245, 245, 245, 0.8));
+    background-position: center;
+    background-size: cover;
+    margin:5% 15%;
+    margin-top:0;
+} 
+
+.registerForm h2 {
+    text-align: center;
+    color: #9bb98f;
+}
+
+
+.registerForm fieldset{
+    padding: 3%;
+    margin: 2%;
+    border:2px solid #9bb98f;
+    border-radius: 5px;
+}
+.registerForm input:focus{/* input focus effect */
+    outline: 1px solid #9bb98f;
+} 
+.registerForm fieldset legend{
+    font-size: 20px;
+    color: #9bb98f;
+    font-weight: bold;
+}
+
+/* ----------- Contact Information----------- */
+.registerForm fieldset .personalInfoContainer .personalInfo{
+    width: 100%;
+    margin: 1% 0;
+}
+.registerForm fieldset .personalInfoContainer label{
+    cursor: pointer;
+}
+.registerForm fieldset #firstNameNotice, #lastNameNotice, #eamilNotice, #purposeNotice{
+    font-weight: normal;
+}
+.registerForm .purposeContainer p{
+    margin: 1% 0;
+}
+.registerForm .purposeContainer label{
+    margin-right: 2%;
+    cursor: pointer;
+}
+.registerForm .purposeContainer input{
+    cursor: pointer;
+} 
+.registerForm .purposeContainer input:focus{/* input focus effect */
+    outline: none;
+} 
+
+/* ----------- Buttons Setting ----------- */
+.registerForm .buttons{
+    text-align: center;
+    margin: 1% 0;
+    cursor: pointer;
+} 
+.registerForm .buttons #submitBtn, #resetBtn{
+    padding: .2% 1%;
+    margin: 0 2%;
+    cursor: pointer;
+} 

@@ -1,0 +1,201 @@
+
+  .click {
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+  }
+  .click:hover {
+    transform: scale(1.1);
+  }
+
+  .logo{
+    transition: transform 0.2s ease;
+  }
+  .logo:hover {
+    transform: scale(1.1);
+  }
+
+  
+
+/* ---------------------------------------Back to Top Button-------------------------------- */
+.fa-arrow-alt-circle-up {
+    position: fixed;
+    bottom: 5vh;
+    right: 40px;
+    cursor: pointer;
+    transition: transform 0.8s;
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    z-index: 999;
+
+
+}
+
+.fa-arrow-alt-circle-up:hover {
+    transform: translateY(-12px);
+    color: whitesmoke;
+
+}
+
+
+/* -----------------------------------------Thunbnail Image------------------------------ */
+.thumbnailBackgroung{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    visibility: hidden;/* hide background */
+    z-index: 9999;
+}
+
+.zoomContainer{
+    position: relative;
+    background: whitesmoke;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 0;
+    height: auto;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+
+}
+
+.zoomContainer img{
+    margin: 1%;
+    max-width: 100%;/* set image height & width adust by the window size */
+
+}
+
+.closeButton{
+  margin: 0;
+}
+
+.zoomContainer i{
+    font-size: 25px;
+    float: right;
+    cursor: pointer;
+
+}
+
+/* -----------------------------------------custom tools------------------------------ */
+.custom {
+  position: fixed;
+  top: 170px;
+  right: 0;
+  text-align: right;
+  display: flex;
+  justify-content: flex-start;
+  z-index: 999;
+  background: rgba(182, 215, 168, 0.65);
+  padding: 0.5% 1%;
+  margin: 0;
+  flex-direction: column;
+}
+.custom select {
+  font-size: .8em;
+  margin: 3%;
+  width:100px;
+
+}
+
+
+/* Customized change setting class*/
+/* background colour */
+.green {
+  background-color: #b6d7a8;
+}
+.dark {
+  background-color: #9cb890;
+}
+.purple {
+  background-color: #cfd0f3;
+}
+.blue {
+  background-color: #cfe2f3;
+}
+.grey {
+  background-color: #404040;
+}
+
+
+
+/* font size */
+.small {
+  font-size: smaller;
+}
+.normal {
+  font-size: 1em;
+}
+.large {
+  font-size: larger;
+}
+
+
+
+.hearderColour{
+  background-color: #b6d7a8;
+  
+}
+
+.footerColour{
+  background-color: #b6d7a8;
+}
+
+
+
+
+
+/* footer */
+.followUs h6{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger
+
+}
+
+.footerLinks h6{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+
+}
+
+.footerLinks a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.footerLinks a:hover{
+  color: black;
+  font-weight: bold;
+}
+
+.vProtal h6{
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
+
+}
+
+
+@media(max-width:1100px){
+  .custom {
+    top: auto;
+    right: auto;
+    bottom: 1.5vh;
+    left: 0;
+
+  }
+
+}

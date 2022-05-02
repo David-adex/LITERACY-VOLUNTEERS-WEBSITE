@@ -1,0 +1,75 @@
+.mainBodyContent{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mainContent{
+    flex-basis: 80%;
+}
+aside{
+    flex-basis: 20%;
+    min-width: 230px;
+    background-color: whitesmoke;
+}
+
+.volunteerRegForm{
+    position: sticky;
+    top:170px;
+
+    background-color: whitesmoke;
+    padding: 5%;
+    margin: 0;
+}
+.volunteerRegForm fieldset{
+    padding: 3%;
+    margin: 2%;
+    border:2px solid #9bb98f;
+    border-radius: 5px;
+}
+
+.volunteerRegForm fieldset legend{
+    color:#9bb98f;
+    font-weight: bold;
+}
+
+.personalInfoContainer input{
+    width: 100%;
+}
+.personalInfoContainer label{
+    color: black;
+}
+
+.formButtons{
+    text-align: center;
+}
+.formButtons #submitBtn:hover{
+    transform: scale(1.1);
+    transition: transform .2s linear;
+}
+.formButtons #resetBtn:hover{
+    transform: scale(1.1);
+    transition: transform .2s linear;
+}
+
+.formButtons input{
+    
+    border: none;
+    border-radius: 2px;
+    margin: 0 2%;
+    margin-top:5%;
+    background-color: #027dee;
+    color: white;
+    font-size: smaller;
+    
+}
+
+@media (max-width:900px){
+    aside{
+        flex-basis: 80%;
+        margin: 2%;
+
+    }
+}

@@ -1,0 +1,411 @@
+<html>
+
+<head>
+  <title>Volunteers</title>
+  <meta charset="utf-8">
+  <script src="https://kit.fontawesome.com/ba96adf8e5.js" crossorigin="anonymous"></script><!-- icon API -->
+  <script src="index.js" defer></script>
+  <script src="customTool.js" defer></script>
+  <link rel="stylesheet" href="index.css" type="text/css" />
+  <link rel="stylesheet" href="volunteers.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<body>
+  <div class="sticky-top drop-shadow">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3"
+      style="background-color:#b6d7a8;" ;>
+      <div class="d-flex align-items-center px-4"><a href="index.html"><img src="assets/logo.png" class="logo" style="width: 135px;"></a></div>
+      <div class="d-flex justify-content-center">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" style="width:35%; height: auto;">
+          <source src="assets/AnimLogo.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="d-flex align-items-center">
+        <a class="nav-link dropdown-toggle link-light" href="#" id="navbarDropdown" role="button"
+          data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="index.html">Home</a>
+          <a class="dropdown-item" href="aboutUs.html">About Us</a>
+          <a class="dropdown-item" href="joinUs.html">Join Us</a>
+          <a class="dropdown-item" href="resources.html">Resources</a>
+          <a class="dropdown-item" href="fundraising.html">Fundraising</a>
+          <a class="dropdown-item" href="news.html">News</a>
+          <a class="dropdown-item" href="contactUs.html">Contact Us</a>
+          <a class="dropdown-item" href="cookiePolicy.html">Cookie Policy</a>
+        </div>
+      </div>
+    </header>
+    <ul class="hearderColour nav nav-tabs nav-fill red justify-content-center border-bottom">
+      <li class="nav-item">
+        <a class="nav-link active" href="volunteers.html">Volunteers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-light" href="schools.html">Schools</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-light" href="earlyYears.html">Early Years</a>
+      </li>
+    </ul>
+  </div>
+
+  <!--======================================== Costomise Tools =====================================-->
+  <form class="custom">
+    <!--customise font size and background colour-->
+    <!--  custom drop-down list -->
+    <!--  font size -->
+    <select id="fontList">
+      <option value="" selected>Font Size</option>
+      <option value="small">Small</option>
+      <option value="normal">Normal</option>
+      <option value="large">Large</option>
+    </select>
+
+    <!--  background color -->
+    <select id="colorList">
+      <option value="" selected>Colour Mode</option>
+      <option value="green">Green</option>
+      <option value="dark">Dark Green</option>
+      <option value="purple">Purple</option>
+      <option value="blue">Blue</option>
+      <option value="grey">Grey</option>
+    </select>
+  </form>
+
+
+
+
+  <div class="hero-image p-5"
+    style="background-image:url('assets/volunteerhero.png'); background-position: center;position: relative; background-size: cover;">
+    <div class="hero-text p-5 mx-auto"
+      style="color:white; filter:drop-shadow(0 0 3px #000); font-family:Bubblegum Sans">
+      <h1>
+        <center>Volunteering</center>
+      </h1>
+    </div>
+  </div>
+
+  <div class="p-4" style="background-color:#b6d7a8;">
+    <h3 style="color:white; filter:drop-shadow(0 0 3px #9bb98f); font-family:Bubblegum Sans">
+      <center>"Our volunteer is a STAR. We love having her in, as do the children."</center>
+    </h3>
+    <h6 style="color:white;">
+      <center>-HT, Ranskill Primary School</center>
+    </h6>
+  </div>
+
+
+
+  <div class="fontSizeContainer">
+    <div class="mainBodyContent">
+      <div class="mainContent">
+        <div class="row d-flex mx-auto shadow-sm align-items-center" style="background-color:#f5f5f5;">
+          <div class="col py-5">
+            <h2 style="font-family:Bubblegum Sans">One to One Volunteers</h2>
+            <div class="card" style="width:100%">
+              <div class="row no-gutters">
+                <div class="col-sm-5">
+                  <img class="card-img" src="assets/card4.jpg" alt="card">
+                </div>
+                <div class="col-sm-7">
+                  <div class="card-body">
+                    <h5 class="card-title">Benefits of being a Volunteer</h5>
+                    <p class="card-text">Our Literacy Volunteers help children in schools and early years settings. They
+                      do not teach reading. Instead they help children on a one-to-one basis to give them confidence in
+                      their reading and communication skills through conversation, reading, writing and playing games.
+                    </p>
+                    <p class="card-text">In addition to the training, travelling expenses and on-going support we will
+                      provide you with. You also get to enjoy a volunteeritng role
+                      that is transforming the lives of children. Half a day a week of your time to have fun and help to
+                      educate is making all the difference in a child's life.
+                    </p>
+                    <a class="btn btn-primary logo" data-bs-toggle="collapse" href="#ask" role="button"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Learn More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="collapse" id="ask">
+              <div class="card card-body" style="width:100%">
+                <h6><u>Volunteers Must:</u></h6>
+                <ul>
+                  <li>Like children.</li>
+                  <li>Enjoy reading and communicating.</li>
+                  <li>Be patient, flexible and reliable.</li>
+                </ul>
+                <h6><u>Volunteers:</u></h6>
+                <ul>
+                  <li>Go to the same setting regularly for one morning or afternoon session each week.</li>
+                  <li>Help children on an individual basis.</li>
+                  <li>Help the same children each week (on average you see 4 children in a session).</li>
+                  <li>Work outside of the classroom.</li>
+                  <li>Talk, read, play games/do puzzles and write with their children.</li>
+                  <li>Enjoy their time with the children and make sure that the children enjoy the sessions too</li>
+                  <li>Make a real difference to a child</li>
+                  <li>Promote a love of reading and books</li>
+                </ul>
+                <h6><u>Volunteers are provided with:</u></h6>
+                <ul>
+                  <li>Training.</li>
+                  <li>On-going support from an Area Co-ordinator.</li>
+                  <li>Books, games and other resources to use with their children.</li>
+                  <li>Travelling expenses.</li>
+                </ul>
+                <h4 style="color: #9cb890;"><b>INTERESTED? Contact us for more details and to enquire about training on
+                    0115 876 5474 or contact@literacyvolunteers.org.uk</b></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row d-flex mx-auto shadow-sm align-items-center" style="background-color:#f5f5f5;">
+          <div class="col py-5">
+            <div class="card" style="width:100%">
+              <div class="row no-gutters">
+                <div class="col-sm-7">
+                  <div class="card-body">
+                    <h5 class="card-title">What we ask for</h5>
+                    <p class="card-text">All that we ask is that you are someone who loves working with children, enjoys
+                      reading and comminicating with them and are capable of being patient, flexible in your schedule and
+                      dedicated to our mission of helping children all across Nottingham. </p>
+                    <p class="card-text">In addition to this, we invite you to attend out training sessions and learn a
+                      little more about what it means to be a part of our volunteer group, and how we go about teaching in
+                      schools.</p>
+                  </div>
+                </div>
+                <div class="col-sm-5">
+                  <img class="card-img" src="assets/card5.jpg" alt="card">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row d-flex mx-auto shadow-sm align-items-center" style="background-color:#f5f5f5;">
+          <div class="col py-5">
+            <div class="card" style="width:100%">
+              <div class="row no-gutters">
+                <div class="col-sm-5">
+                  <img class="card-img" src="assets/card6.jpg" alt="card">
+                </div>
+                <div class="col-sm-7">
+                  <div class="card-body">
+                    <h5 class="card-title">Training</h5>
+                    <p class="card-text">If you are interested in becoming a Literacy Volunteer in either an early years
+                      setting or primary, come along to one of our Training Courses and learn all about our organisation
+                      and how you can give your time to help children to love books and improve their literacy and
+                      communication skills.</p>
+                    <p class="card-text">We need Volunteers throughout Nottinghamshire, Derbyshire and some of
+                      Leicestershire so please call us to find out more or to book a place on one of the training courses.
+                      <b>NOTE: YOU ARE REQUIRED TO ATTEND BOTH SESSION 1 AND 2 OF THE COURSE OFFERED TO YOU.</b>
+                    </p>
+                    <p class="card-text">VETTING: You will also need to complete a Disclosure and Barring Service
+                      application and an online safeguarding course and online prevent course as part of your vetting.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row d-flex mx-auto shadow-sm align-items-center" style="background-color:#f5f5f5;">
+          <div class="col py-5">
+            <h2 style="font-family:Bubblegum Sans">Story Sharers</h2>
+            <div class="card" style="width:100%">
+              <div class="row no-gutters">
+                <div class="col-sm-7">
+                  <div class="card-body">
+                    <h5 class="card-title">About Story Sharers</h5>
+                    <p class="card-text">Story Sharers will make a key contribution to local children’s literacy,
+                      communication and comprehension skills. You will read to and with children to enthuse and raise the
+                      amount of time they spend ‘reading for pleasure’. We know that children who enjoy reading for
+                      pleasure are
+                      four time more likely to read at the expected level for their age than children who do not enjoy
+                      reading. You will act as a positive ambassador for reading, encouraging children to see books as
+                      offering them valuable and enjoyable experiences. You will increase children’s confidence and
+                      self-esteem. We’re not looking for professional storytellers – just people who are enthusiastic
+                      about, stories, books and reading and poetry.</p>
+                    <a class="btn btn-primary logo" data-bs-toggle="collapse" href="#support" role="button"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Learn More
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm-5">
+                  <img class="card-img" src="assets/card7.png" alt="card">
+                </div>
+              </div>
+            </div>
+            <div class="collapse" id="support">
+              <div class="card card-body" style="width:100%">
+                <h6><b>How it works</b></h6>
+                <p>Literacy Volunteers will give you full training and regular support once you are matched with a
+                  setting. You will be provided with either story sack or story bag of resources to use (depending on the
+                  age of the children you are reading with and to).</p>
+                <p><b>Where?</b> Early years / preschool settings, school breakfast clubs, during school lunchtimes and at
+                  after school provision. We can tailor the setting to suit you.</p>
+                <p><b>Who with?</b> From early years (up to age 5), up to Year 6 (age 10/11).</p>
+                <p><b>When?</b> This opportunity has been developed for volunteers who can only attend settings for a
+                  minimum of one hour a week for as little as one term.</p>
+                <h6><u>We need you to:</u></h6>
+                <ul>
+                  <li>Like children.</li>
+                  <li>Enjoy reading and communicating.</li>
+                  <li>Be patient, flexible and reliable.</li>
+                  <li>Use a range of resources in an inspiring, fun and considered way.</li>
+                  <li>Be flexible and independent in a modern educational setting.</li>
+                  <li>Commit to safeguarding the welfare of the children.</li>
+                </ul>
+                <h6><u>You will:</u></h6>
+                <ul>
+                  <li>Be valued as part of a team making a real difference to young children's future prospects.</li>
+                  <li>Develop and use your skills over a period of time.</li>
+                  <li>Receive induction and safeguarding training.</li>
+                  <li>Work outside of the classroom.</li>
+                  <li>Have on-going support from an Area Co-ordinator.</li>
+                  <li>Be provided with resources.</li>
+                  <li>Receive travel expenses.</li>
+                </ul>
+                <h4 style="color: #9cb890;"><b>If you are interested please contact Lorna Jaggard
+                    lorna.jaggard@literacyvolunteers.org.uk / 07962 248930.</b></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+  
+  
+      <aside>
+  
+        <form class="volunteerRegForm">
+          <!-- <h4>Volunteer Application Form</h4> -->
+  
+          <section class="personalInfoContainer">
+            <fieldset>
+              <legend>Volunteer Application Form</legend>
+              <label for="firstName">First name:</label>
+              <label id="firstNameNotice"> </label>
+              <!--notice-->
+              <input type="text" class="personalInfo" name="firstName" id="firstName" title="1 to 25 Letters First Name"
+                required>
+  
+              <label for="lastName">Last name:</label>
+              <label id="lastNameNotice"> </label>
+              <!--notice-->
+              <input type="text" class="personalInfo" name="lastName" id="lastName" title="1 to 25 Letters Last Name"
+                required>
+  
+              <label for="mobile">Mobile:</label>
+              <label id="mobileNotice"> </label>
+              <!--notice-->
+              <input type="text" class="personalInfo" name="mobile" id="mobile" title="Mobile" required>
+  
+              <label for="email">Email:</label>
+              <label id="eamilNotice"> </label>
+              <!--notice-->
+              <input type="text" class="personalInfo" name="email" id="email" title="Email Address" required>
+  
+              <label for="address">Address:</label>
+              <label id="addressNotice"> </label>
+              <!--notice-->
+              <input type="text" class="personalInfo" name="address" id="address" title="Address" required>
+  
+              <label for="postCode">Post Code:</label>
+              <label id="postCodeNotice"> </label>
+              <!--notice-->
+              <input type="text" class="personalInfo" name="postCode" id="postCode" title="PostCode" required>
+  
+          </section>
+  
+          </fieldset>
+  
+          <!-- submit & reset button -->
+          <section class="formButtons">
+            <input id="submitBtn" type="submit" value="Submit" title="Submit Form">
+            <input id="resetBtn" type="reset" value="Rest" title="Reset Form">
+          </section>
+        </form>
+  
+      </aside>
+  
+    </div>
+
+  </div>
+
+
+  <div class="p-4" style="background-color:#9cb890;"></div>
+
+
+  <!--- Back to Top Button -->
+  <a class="fas fa-arrow-alt-circle-up" href="#" title="back-top button"> </a>
+
+
+  <div class="p-4" style="background-color:#9cb890;"></div>
+
+  <footer class="footerColour page-footer font-small p-4">
+    <div class="row">
+      <div class="m-4"></div>
+      <div class="followUs col-md-2 col-lg-2 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold mt-2">Follow Us</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <form action="">
+          <div class="col-auto text-start">
+            <label for="Name" class="col-form-label">Name</label>
+          </div>
+          <div class="col-auto">
+            <input type="text"  name="Name" title="1 to 25 Letters Name" required>
+          </div>
+          <div class="mb-2 col-auto text-start">
+            <label for="email" class="col-form-label">Email address</label>
+          </div>
+          <div class="col-auto mb-2">
+            <input type="text" name="email" title="Email Address" required>
+          </div>
+          <div class="mb-2">
+            <button type="submit" class="btn btn-primary btn btn-roundedn text-center" style="margin-top: 3%; font-size: smaller;"> Subscribe</button>
+          </div>
+        </form>
+      </div>
+      <div class="footerLinks col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold mt-2">Useful links</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a class="link-light" href="volunteers.html">Volunteers</a>
+        </p>
+        <p>
+          <a class="link-light" href="schools.html">Schools</a>
+        </p>
+        <p>
+          <a class="link-light" href="earlyYears.html">Early Years</a>
+        </p>
+        <p>
+          <a class="link-light" href="contactUs.html">Contact Us</a>
+        </p>
+        <p>
+          <a class="link-light" href="joinUs.html">Enquiry Form</a>
+        </p>
+        <p>
+          <a class="link-light" href="#!">Frequently Asked Questions</a>
+        </p>
+      </div>
+      <div class="vProtal col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold mt-2">Volunteers Portal</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Current Volunteers should click the button below</p>
+        <a href="#!" class="btn btn-primary btn btn-rounded">Sign in!</a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
