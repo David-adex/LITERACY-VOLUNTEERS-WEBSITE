@@ -1,3 +1,0 @@
-NTU ISYS20182 Group 11ii (c) All rights reserved
-None of this code can be repoduced or partly re-used without the permission 
-from James Phipps (james.phipps2020@my.ntu.ac.uk) & Wenjia Geng (wenjia.geng2020@my.ntu.ac.uk).
